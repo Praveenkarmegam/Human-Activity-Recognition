@@ -1,0 +1,53 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# Python byte-code / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Dataset files & archives (downloaded automatically or kept local)
+data/*.zip
+data/har_data/
+data/UCI HAR Dataset/
+*.zip
+
+# Gradio flags
+flagged/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
